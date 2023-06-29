@@ -9,6 +9,11 @@ const config = [
     'TXT',
     '12afedf9-ec5f-401d-a4fe-d2850d115a01',
   ],
+  [
+    '_github-challenge-isd-sgcu-org.preview.freshmen2023.sgcu.in.th',
+    'TXT',
+    'cf2e5fffa7',
+  ],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
