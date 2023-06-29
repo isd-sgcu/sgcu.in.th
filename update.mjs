@@ -1,20 +1,7 @@
 const config = [
-  // https://github.com/wonderfulsoftware/source.in.th/blob/main/public/_redirects
-  ['source.in.th', 'CNAME', 'apex-loadbalancer.netlify.com'],
-  ['www.source.in.th', 'CNAME', 'sourceinth.netlify.app'],
-  ['discord.bangkok.open.source.in.th', 'CNAME', 'sourceinth.netlify.app'],
-
-  // https://github.com/rayriffy/lamb
-  ['lamb.source.in.th', 'CNAME', 'rayriffy.github.io'],
-
-  // https://github.com/dtinth/screenshot-redirector
-  ['screenshot.source.in.th', 'CNAME', 'cname.vercel-dns.com'],
-
-  // Experiment with Canasta
-  ['bangkok.source.in.th', 'A', '103.169.67.34'],
-
-  // https://github.com/dtinth/transit.source.in.th
-  ['transit.source.in.th', 'CNAME', 'cname.vercel-dns.com'],
+  // https://github.com/example/link-to-source-here
+  // ['example.sgcu.in.th', 'CNAME', 'this-is-a.example.com'],
+  // ['_vercel.sgcu.in.th', 'TXT', 'vc-domain-verify=wallet.7th.stupid.hackathon.in.th,ffacee0fe9da5f8feb3b'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
