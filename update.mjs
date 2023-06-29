@@ -1,7 +1,14 @@
 const config = [
   // https://github.com/example/link-to-source-here
-  // ['example.sgcu.in.th', 'CNAME', 'this-is-a.example.com'],
   // ['_vercel.sgcu.in.th', 'TXT', 'vc-domain-verify=wallet.7th.stupid.hackathon.in.th,ffacee0fe9da5f8feb3b'],
+
+  // rpkm66
+  ['api.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
+  [
+    '_cf-custom-hostname.api.freshmen2023.sgcu.in.th',
+    'TXT',
+    '12afedf9-ec5f-401d-a4fe-d2850d115a01',
+  ],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
