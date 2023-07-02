@@ -15,6 +15,9 @@ const config = [
     'cf2e5fffa7',
   ],
 
+  // freshmen2023.sgcu.in.th
+  ['freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
+
   // gh pages
   ['preview.freshmen2023.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
   // // A records to gh pages
