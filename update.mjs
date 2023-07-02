@@ -14,6 +14,9 @@ const config = [
     'TXT',
     'cf2e5fffa7',
   ],
+
+  // gh pages
+  ['preview.freshmen2023.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
