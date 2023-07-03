@@ -17,14 +17,7 @@ const config = [
 
   // freshmen2023.sgcu.in.th
   ['freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
-
-  // gh pages
-  ['preview.freshmen2023.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
-  // // A records to gh pages
-  ['sgcu.in.th', 'A', '185.199.108.153'],
-  ['sgcu.in.th', 'A', '185.199.109.153'],
-  ['sgcu.in.th', 'A', '185.199.110.153'],
-  ['sgcu.in.th', 'A', '185.199.111.153'],
+  ['preview.freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
