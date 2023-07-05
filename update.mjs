@@ -5,6 +5,7 @@ const config = [
   // rpkm66
   ['api.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   ['pbeta.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
+  ['pdev.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   ['sso-mock.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   [
     '_cf-custom-hostname.api.freshmen2023.sgcu.in.th',
@@ -20,6 +21,11 @@ const config = [
     '_cf-custom-hostname.sso-mock.freshmen2023.sgcu.in.th',
     'TXT',
     '36b970f5-e477-41d3-b185-9aff9f615ad1',
+  ],
+  [
+    '_cf-custom-hostname.pdev.freshmen2023.sgcu.in.th',
+    'TXT',
+    '02fbe364-d090-47b6-a1ce-c107cb117700',
   ],
   [
     '_github-challenge-isd-sgcu-org.preview.freshmen2023.sgcu.in.th',
