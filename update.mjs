@@ -8,6 +8,7 @@ const config = [
   ['pdev.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   ['sso-mock.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   ['outline.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
+  ['db.isd.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   [
     '_cf-custom-hostname.api.freshmen2023.sgcu.in.th',
     'TXT',
@@ -27,6 +28,11 @@ const config = [
     '_cf-custom-hostname.outline.sgcu.in.th',
     'TXT',
     '43c4fd10-d5a9-4b7c-83b8-984d637cdcd6',
+  ],
+  [
+    '_cf-custom-hostname.db.isd.sgcu.in.th',
+    'TXT',
+    'fe2b0a4a-6061-4117-a50f-3fbdeeab7d80',
   ],
   [
     '_cf-custom-hostname.pdev.freshmen2023.sgcu.in.th',
