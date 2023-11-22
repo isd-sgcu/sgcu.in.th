@@ -48,6 +48,9 @@ const config = [
   // freshmen2023.sgcu.in.th
   ['freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
   ['preview.freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
+
+  // github pages
+  ['_github-challenge-isd-sgcu-org.isd.sgcu.in.th', 'TXT', '58ca596357'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
