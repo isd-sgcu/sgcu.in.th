@@ -54,10 +54,10 @@ const config = [
   ['_github-challenge-isd-sgcu-org.isd.sgcu.in.th', 'TXT', '58ca596357'],
   ['_github-challenge-isd-sgcu-org', 'TXT', '3df16b06cd'],
 
-  ['sgcu.in.th', 'A', '185.199.108.153'],
-  ['sgcu.in.th', 'A', '185.199.109.153'],
-  ['sgcu.in.th', 'A', '185.199.110.153'],
-  ['sgcu.in.th', 'A', '185.199.111.153'],
+  // ['sgcu.in.th', 'A', '185.199.108.153'],
+  // ['sgcu.in.th', 'A', '185.199.109.153'],
+  // ['sgcu.in.th', 'A', '185.199.110.153'],
+  // ['sgcu.in.th', 'A', '185.199.111.153'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
