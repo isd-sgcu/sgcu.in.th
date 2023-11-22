@@ -9,6 +9,7 @@ const config = [
   ['sso-mock.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   ['outline.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
   ['db.isd.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
+  ['isd.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
   [
     '_cf-custom-hostname.api.freshmen2023.sgcu.in.th',
     'TXT',
@@ -52,13 +53,6 @@ const config = [
   // github pages
   ['_github-challenge-isd-sgcu-org.isd.sgcu.in.th', 'TXT', '58ca596357'],
   ['_github-challenge-isd-sgcu-org', 'TXT', '3df16b06cd'],
-
-  // point your apex domain to github ips
-
-  ['sgcu.in.th', 'A', '185.199.108.153'],
-  ['sgcu.in.th', 'A', '185.199.109.153'],
-  ['sgcu.in.th', 'A', '185.199.110.153'],
-  ['sgcu.in.th', 'A', '185.199.111.153'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
