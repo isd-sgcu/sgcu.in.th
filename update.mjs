@@ -51,6 +51,7 @@ const config = [
 
   // github pages
   ['_github-challenge-isd-sgcu-org.isd.sgcu.in.th', 'TXT', '58ca596357'],
+  ['_github-challenge-isd-sgcu-org', 'TXT', '3df16b06cd'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
