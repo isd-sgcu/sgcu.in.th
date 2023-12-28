@@ -2,53 +2,22 @@ const config = [
   // https://github.com/example/link-to-source-here
   // ['_vercel.sgcu.in.th', 'TXT', 'vc-domain-verify=wallet.7th.stupid.hackathon.in.th,ffacee0fe9da5f8feb3b'],
 
-  // rpkm66
-  ['api.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
-  ['pbeta.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
-  ['pdev.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
-  ['sso-mock.freshmen2023.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
-  ['outline.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
-  ['db.isd.sgcu.in.th', 'CNAME', 'cname.deploys.app'],
-  ['isd.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
-  [
-    '_cf-custom-hostname.api.freshmen2023.sgcu.in.th',
-    'TXT',
-    '12afedf9-ec5f-401d-a4fe-d2850d115a01',
-  ],
-  [
-    '_cf-custom-hostname.pbeta.freshmen2023.sgcu.in.th',
-    'TXT',
-    '2cc0ed7f-7c83-443c-b941-cd1d2aeb285d',
-  ],
-  [
-    '_cf-custom-hostname.sso-mock.freshmen2023.sgcu.in.th',
-    'TXT',
-    '36b970f5-e477-41d3-b185-9aff9f615ad1',
-  ],
-  [
-    '_cf-custom-hostname.outline.sgcu.in.th',
-    'TXT',
-    '43c4fd10-d5a9-4b7c-83b8-984d637cdcd6',
-  ],
-  [
-    '_cf-custom-hostname.db.isd.sgcu.in.th',
-    'TXT',
-    'fe2b0a4a-6061-4117-a50f-3fbdeeab7d80',
-  ],
-  [
-    '_cf-custom-hostname.pdev.freshmen2023.sgcu.in.th',
-    'TXT',
-    '02fbe364-d090-47b6-a1ce-c107cb117700',
-  ],
-  [
-    '_github-challenge-isd-sgcu-org.preview.freshmen2023.sgcu.in.th',
-    'TXT',
-    'cf2e5fffa7',
-  ],
+  // isd infrastructure
+  ['grafana.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['grafana.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['argo.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['argo.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['traefik.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['traefik.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
 
-  // freshmen2023.sgcu.in.th
-  ['freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
-  ['preview.freshmen2023.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
+  // oph66
+  ['preview-api.oph66.sgcu.in.th', 'A', '157.230.44.126'],
+  ['preview-api.oph66.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['preview.oph66.sgcu.in.th', 'A', '157.230.44.126'],
+  ['preview.oph66.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+
+  // rpkm66
+  ['isd.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
 
   // github
   ['sgcu.in.th', 'A', '185.199.108.153'],
