@@ -21,6 +21,10 @@ const config = [
   ['preview-api.oph66.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
   ['preview.oph66.sgcu.in.th', 'A', '157.230.44.126'],
   ['preview.oph66.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['cuopenhouse.sgcu.in.th', 'A', '157.230.44.126'],
+  ['cuopenhouse.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['api.cuopenhouse.sgcu.in.th', 'A', '157.230.44.126'],
+  ['api.cuopenhouse.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
 
   // rpkm66
   ['isd.sgcu.in.th', 'CNAME', 'isd-sgcu.github.io'],
