@@ -15,6 +15,8 @@ const config = [
   ['internal.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
   ['minio-console.isd.sgcu.in.th', 'A', '157.230.44.126'],
   ['minio-console.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['minio-api.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['minio-api.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
 
   // oph66
   ['preview-api.oph66.sgcu.in.th', 'A', '157.230.44.126'],
