@@ -36,6 +36,16 @@ const config = [
   ['sgcu.in.th', 'A', '185.199.109.153'],
   ['sgcu.in.th', 'A', '185.199.110.153'],
   ['sgcu.in.th', 'A', '185.199.111.153'],
+
+  // johnjud
+  ['preview-api.johnjud.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['preview-api.johnjud.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['preview.johnjud.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['preview.johnjud.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['johnjud.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['johnjud.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
+  ['api.johnjud.isd.sgcu.in.th', 'A', '157.230.44.126'],
+  ['api.johnjud.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
 ]
 
 const zoneId = process.env.CLOUDFLARE_ZONE_ID
