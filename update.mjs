@@ -30,6 +30,9 @@ const config = [
   ['api.cuopenhouse.sgcu.in.th', 'A', '157.230.44.126'],
   ['api.cuopenhouse.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
 
+  // blog
+  ['blog.isd.sgcu.in.th', 'CNAME', 'blog-isd.pages.dev'],
+
   // new chu
   ['api.new-chu.sgcu.in.th', 'A', '157.230.44.126'],
   ['api.new-chu.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
