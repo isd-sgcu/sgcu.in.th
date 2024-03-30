@@ -22,6 +22,8 @@ const config = [
   ['dbeavercloud.isd.sgcu.in.th', 'A', '157.230.44.126'],
   ['dbeavercloud.isd.sgcu.in.th', 'AAAA', '2400:6180:0:d0::1103:d001'],
 
+  ['cutu2024.sgcu.in.th', 'CNAME', 'cname.vercel-dns.com'],
+
   // blog
   ['blog.isd.sgcu.in.th', 'CNAME', 'blog-isd.pages.dev'],
 
